@@ -1,0 +1,174 @@
+ @CHARSET "ISO-8859-1"; 
+
+
+ * {
+    box-sizing: border-box;
+}
+/*
+  ========================================
+  Header
+  ========================================
+*/
+
+.header{
+	background: #cc9900;
+	border-bottom: 3px solid #cc9900;
+	
+	}
+.primary-header h1 {
+	 top:0;
+	 position: fixed;
+	left:600px;
+	}	
+a  {
+    letter-spacing: 8.5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	}
+	
+	
+	
+	/*
+  ========================================
+  Navigation tabs
+  ========================================
+*/
+.nav {
+  text-align: center;
+
+     }
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+        }
+        
+  .nav li a {
+   background-color: #cc9900;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #696969;
+    border-radius: 4px 4px 0 0;
+        }      
+
+
+/*
+  ========================================
+  Custom Styles
+  ========================================
+*/
+
+body{
+	/*background-color: #DAA520 #DEB887;
+	*/
+ background: #a1d3b0;
+  background: -webkit-linear-gradient(to right, #DAA520, #DAA520);
+  background:    -moz-linear-gradient(to right, #DAA520, #DAA520);
+  background:         linear-gradient(to right, #DAA520, #DAA520);
+  padding: 104px 0 22px 0;
+	}
+
+.primary-header a,
+.nav a
+ {
+  color:  #696969;
+  font-size:23px;
+
+}
+ 
+ .nav a
+ {
+  text-decoration: underline;
+}
+
+ 
+.primary-header a:hover
+ {
+  color: #fff;
+  
+}
+ 
+ .nav a:hover {
+  color: #fff;
+  background-color: #696969;
+ }
+ 
+ a, p {
+ font: inherit;
+ }
+ 
+
+
+/*
+  ========================================
+  Resume
+  ========================================
+*/
+
+
+
+
+ .talign{
+	     color: #696969;
+         vertical-align: top;
+         text-align: left;
+         
+         
+		}
+		
+		.innertable li{
+	     list-style-type: none;
+         
+         
+		}
+		
+	/*li{
+	     list-style-position: inside;F5F0E6
+	     list-style-type: square;
+	     
+	     
+		}
+		*/
+		
+.innertable{
+ border-spacing: 18px 4px ;
+ }
+ 
+/*
+  ========================================
+  Teaser
+  ========================================
+*/
+
+
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+ 
+ .primary-footer {
+ border-radius: 5px;
+ position: relative;
+ height: 50px;
+  padding: 4px 0 22px 0;
+}
+ 
+ 
+ .primary-footer small {
+  color: black;
+  position: relative;
+  font-size: 14px;
+  padding-top: 55px;
+  float: left;
+  
+ 
+}
+
+
+
+
+
+
